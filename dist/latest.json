@@ -1,8 +1,8 @@
 {
   "mac": {
-    "version": "1.0.18",
+    "version": "1.0.19",
     "url": "https://github.com/amangup93349-web/Tethro/releases/latest/download/Tethro-mac.zip",
-    "notes": "Help screen, 5-day trial, fixes"
+    "notes": "Notification History: see which app each notification came from"
   },
   "android": {
     "versionCode": 21,
