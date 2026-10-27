@@ -1,0 +1,13 @@
+{
+  "mac": {
+    "version": "1.0.18",
+    "url": "https://github.com/amangup93349-web/Tethro/releases/latest/download/Tethro-mac.zip",
+    "notes": "Help screen, 5-day trial, fixes"
+  },
+  "android": {
+    "versionCode": 21,
+    "versionName": "1.0.21",
+    "url": "https://github.com/amangup93349-web/Tethro/releases/latest/download/Tethro-android.apk",
+    "notes": "Help screen, 5-day trial, fixes"
+  }
+}
