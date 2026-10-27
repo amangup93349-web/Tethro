@@ -1,0 +1,32 @@
+name: Publish release
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag, e.g. v1.0.18"
+        required: true
+      title:
+        description: "Release title"
+        required: true
+      notes:
+        description: "Release notes"
+        required: false
+        default: "Help screen, 5-day trial, fixes"
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show files
+        run: ls -l dist && sha256sum dist/*
+      - name: Create release with assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+          TITLE: ${{ inputs.title }}
+          NOTES: ${{ inputs.notes }}
+        run: |
+          gh release create "$TAG" dist/Tethro-mac.zip dist/Tethro-android.apk dist/latest.json \
+            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "$TITLE" --notes "$NOTES" --latest
