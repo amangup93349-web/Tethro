@@ -5,9 +5,9 @@
     "notes": "Now runs on Intel Macs too (macOS 13 or newer)"
   },
   "android": {
-    "versionCode": 21,
-    "versionName": "1.0.21",
+    "versionCode": 22,
+    "versionName": "1.0.22",
     "url": "https://github.com/amangup93349-web/Tethro/releases/latest/download/Tethro-android.apk",
-    "notes": "Help screen, 5-day trial, fixes"
+    "notes": "New look for the update screens, with a progress bar"
   }
 }
