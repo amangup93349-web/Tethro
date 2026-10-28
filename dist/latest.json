@@ -1,8 +1,8 @@
 {
   "mac": {
-    "version": "1.0.19",
+    "version": "1.0.20",
     "url": "https://github.com/amangup93349-web/Tethro/releases/latest/download/Tethro-mac.zip",
-    "notes": "Notification History: see which app each notification came from"
+    "notes": "Now runs on Intel Macs too (macOS 13 or newer)"
   },
   "android": {
     "versionCode": 21,
