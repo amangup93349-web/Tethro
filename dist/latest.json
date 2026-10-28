@@ -1,13 +1,16 @@
 {
   "mac": {
-    "version": "1.0.20",
+    "version": "1.0.21",
     "url": "https://github.com/amangup93349-web/Tethro/releases/latest/download/Tethro-mac.zip",
-    "notes": "Now runs on Intel Macs too (macOS 13 or newer)"
+    "notes": "Plans (trial, monthly, yearly, lifetime) and clearer messages on Bluetooth"
   },
   "android": {
-    "versionCode": 22,
-    "versionName": "1.0.22",
+    "versionCode": 23,
+    "versionName": "1.0.23",
     "url": "https://github.com/amangup93349-web/Tethro/releases/latest/download/Tethro-android.apk",
-    "notes": "New look for the update screens, with a progress bar"
+    "notes": "Clearer messages when connected over Bluetooth"
+  },
+  "contact": {
+    "whatsapp": "918692091090"
   }
 }
